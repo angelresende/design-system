@@ -1,0 +1,17 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/blocks';
+import { colors } from '@ufenesp-ui/tokens'
+
+<Meta title="Tokens/Colors" />
+
+# Colors
+
+<p>Essas são as cores utilizadas no Ufenesp UI.</p>
+
+<ColorPalette>
+{
+  Object.entries(colors).map(([name, value]) => (
+    <ColorItem title={name} colors={{ [name]: value }} />
+  ))
+}
+  
+</ColorPalette>

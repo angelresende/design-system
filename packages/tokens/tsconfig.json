@@ -1,0 +1,4 @@
+{
+  "extends": "@ufenesp-ui/ts-config/base.json",
+  "include": ["src"]
+}
